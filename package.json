@@ -1,0 +1,21 @@
+{
+  "name": "recipe-book-extension",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack --watch --mode=none",
+    "start": "webpack --mode=production"
+  },
+  "keywords": [
+    "chrome extension",
+    "recipe book reader"
+  ],
+  "dependencies": {
+    "axios": "^1.2.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
